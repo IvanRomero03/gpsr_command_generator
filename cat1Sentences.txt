@@ -2,10 +2,25 @@
 # USAGE: do not use tabs in this file
 # the character '#' at the beginning of a line is used for comments
 
-Move to the LOCATION, move to the LOCATION, and move to the LOCATION.
-Move to the LOCATION, move to the LOCATION and leave the apartment.
-Move to the LOCATION, grasp the ITEM, and bring it to me.
-Move to the LOCATION, grasp the ITEM, and bring it to the LOCATION.
-Move to the LOCATION, grasp the ITEM, and put it in the trash bin.
-Move to the LOCATION, find a person, and introduce yourself.
-Move to the LOCATION, find a person, and guide it to the exit.
+Move to the LOCATION, move to the LOCATION, and move to the LOCATION. ( 1-LOCATION , 2-LOCATION , 3-LOCATION )
+go LOCATION, then go to LOCATION, then go to LOCATION. ( 1-LOCATION , 2-LOCATION , 3-LOCATION )
+Move to the LOCATION, move to the LOCATION and leave the apartment. ( 1-LOCATION , 2-LOCATION , go outside )
+go to LOCATION, then move to the LOCATION and leave the apartment. ( 1-LOCATION , 2-LOCATION , go outside )
+Move to the LOCATION, grasp the ITEM, and bring it to me. ( 1-LOCATION , 1-ITEM , put user )
+go to LOCATION and grab ITEM. ( 1-LOCATION , 1-ITEM )
+Move to the LOCATION, grasp the ITEM, and bring it to the LOCATION. ( 1-LOCATION , 1-ITEM , 2-LOCATION_PUT )
+Move to the LOCATION, find a person, and introduce yourself. ( 1-LOCATION , find person , introduce )
+go to LOCATION, find a person, and introduce yourself. ( 1-LOCATION , find person , introduce )
+Move to the LOCATION, find a person, and guide it to the exit. ( 1-LOCATION , find person , go outside )
+bring me ITEM from LOCATION. ( 1-LOCATION , 1-ITEM , put user )
+bring me ITEM ( 1-ITEM , put user )
+grab ITEM ( 1-ITEM )
+go to LOCATION then move to the LOCATION ( 1-LOCATION , 2-LOCATION )
+Move to the LOCATION, grab the ITEM ( 1-LOCATION , 1-ITEM )
+Grab the ITEM and place it in the LOCATION ( 1-ITEM , 1-LOCATION_PUT )
+go to LOCATION, grab the ITEM, and bring it to the LOCATION ( 1-LOCATION , 1-ITEM , 2-LOCATION_PUT )
+Move to the LOCATION, grasp the ITEM, and bring it to the LOCATION ( 1-LOCATION , 1-ITEM , 2-LOCATION_PUT )
+go to LOCATION ( 1-LOCATION )
+grasp ITEM ( 1-ITEM )
+go to LOCATION, bring me ITEM ( 1-LOCATION , 1-ITEM , put user )
+go to LOCATION, grasp the ITEM, and put it to the LOCATION ( 1-LOCATION , 1-ITEM , 2-LOCATION_PUT )
